@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.head {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    position: relative;
+    top: -20px;
+
+}
+
+.head p{
+    text-align: right;
+    position: relative;
+    right: 150px;
+    top: 25px;
+    font-size: 20px;
+}
+.head img{
+    float: right;
+    position: relative;
+    right: 90px;
+    top: -25px;
+}
+.slide {
+    position: absolute;
+    top: 95px;
+}
+
+.menu {
+    position: relative;
+    top: 220px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(36, 36, 36);
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    position: relative;
+    top: 10px;
+    margin: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.m1 {
+    position: relative;
+    top: 250px;
+    float: left;
+    width: 160px;
+    padding: 14px;
+    text-align: center;
+    color: green;
+}
+
+.m1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.m1 img {
+    width: 130px;
+    height: 175px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.m1 img:hover {
+    transform: scale(1.06);
+    border: 3px solid red;
+}
+.m2 {
+    position: relative;
+    top: 480px;
+    float: left;
+    width: 160px;
+    padding: 14px;
+    text-align: center;
+    color: green;
+}
+
+.m2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.m2 img {
+    width: 130px;
+    height: 175px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.m2 img:hover {
+    transform: scale(1.06);
+    border: 3px solid red;
+}
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+.pub{
+    position: absolute;
+    top: 130%;
+    left: 1.5%;
+}.pub button{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.pub button:hover{
+    background-color: rgb(168, 0, 0);
+}
+.pub button p{
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+}
+.section2{
+    position: absolute;
+    top: 1050px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(36, 36, 36);
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.652);
+    font-family: 'Times New Roman', Times, serif;
+}
+.section2 center{
+    margin-top: 15px;
+}
+.ho{
+    position: relative;
+    top: 1000px;
+}
+.icon{
+    position: absolute;
+    top: 1540px;
+    left: 1000px;
+    color: rgba(255, 255, 255, 0.662);
+    font-size: 13px;
+    font-family: battambang;
+}
+.footer1{
+    position: absolute;
+    top: 1480px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(36, 36, 36);
+    color: rgba(255, 255, 255, 0.558);
+    text-align: center;
+    padding-top: 5px;
+
+}
+.footer2 text{
+    color: rgba(255, 255, 255, 0.603);
+    position: absolute;
+    top: 1900px;
+    left: 680px;
+
+}
+.sup{
+    position: absolute;
+    top: 1513px;
+    left: 20px;
+}
+.sup li{
+    list-style-type: none;
+}
+.sup li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.636) ;
+    margin: 30px;   
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+}
+.sup li a:hover{
+    color: red;
+}
+.sup p{
+    color: rgba(255, 255, 255, 0.701);
+    font-family: battambang;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.contact{
+    position: absolute;
+    top: 1600px;
+    left: 35%;
+}
+.contact h1{
+    color: rgba(255, 255, 255, 0.66);
+    position: absolute;
+    top: -70px;
+    left: 170px;
+}
+.contact p{
+    color: rgba(255, 255, 255, 0.668);
+    position: relative;
+    left: 120px;
+    top: 70px;
+}
+.contact img{
+    position: absolute;
+    left: 100px;
+}
